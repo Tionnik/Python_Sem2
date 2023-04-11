@@ -1,11 +1,11 @@
 #Требуется вывести все целые степени двойки (т.е. числа вида 2k), не превосходящие числа N.
 
-n= int (input("Введите число: "))
+IntNamber= int (input("Введите число: "))
 i=0
-a=0
-for i in range(n):
-    a= 2**i
-    if a<=n:
-        print(f"{a} ")
+namber=0
+for i in range(IntNamber):
+    namber= 2**i
+    if namber<=IntNamber:
+        print(f"{namber} ")
     else:
         quit()
