@@ -4,11 +4,11 @@
 
 summa = int (input("Введите сумму чисел: ")) 
 product = int (input("Введите произведение чисел: "))
-i=1
-j=1 
+i=0
+j=0 
 for i in range(1001):
     for j in range(1001):
         if ((i+j)==summa and (i*j)==product):
             print(f"Эти число {i} и {j}")
             quit()
-print ("Нет таких чисел")
+print ("Нет таких целых чисел")
